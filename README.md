@@ -1,3 +1,3 @@
-# Kokoa Clone 2020 Update.
+# 승훈이톡
 
-HTML & CSS are so much fun!
+승훈이톡만들기
