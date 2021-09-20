@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>승훈톡</title>
+    <title>친구목록</title>
 </head>
 <body>
     <div class="status-bar">
@@ -23,17 +23,24 @@
         </div>
     </div>
 
-    <header class="welcome-header">
-        <h1 class="welcome-header__title">승훈톡에 오신 것을 환영합니다!</h1>
-        <p class="welcome-header__text">계정이 있다면 이메일 혹은 휴대폰 번호와 암호를 입력해주세요.</p>
-    </header>
-
-    <form action="friends.html" method="GET" id="login-form">
-        <input name="username" type="text" placeholder="이메일 또는 휴대폰 번호" />
-        <input name="password" type="password" placeholder="비밀번호" />
-        <input type="submit" value="로그인" />
-        <a href="#">계정 또는 비밀번호 찾기</a>
-    </form>
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__btn"><a class="nav__link" href="friends.html"><i class="fas fa-user fa-2x"></i></a></li>
+            <li class="nav__btn">
+                <a class="nav__link" href="#">
+                    <span class="nav__notification">1</span>
+                    <i class="far fa-comment fa-2x"></i>
+                </a>
+            </li>
+            <li class="nav__btn"><a class="nav__link" href="#"><i class="fas fa-search fa-2x"></i></a></li>
+            <li class="nav__btn">
+                <a class="nav__link" href="#">
+                    <span class="nav__dot"></span>
+                    <i class="fas fa-ellipsis-h fa-2x"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
 
 
     <script 
