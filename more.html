@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>검색</title>
+    <title>더보기</title>
 </head>
 <body>
     <div class="status-bar">
@@ -24,64 +24,60 @@
     </div>
 
     <header class="screen-header">
-        <h1 class="screen-header__title">검색</h1>
+        <h1 class="screen-header__title">더보기</h1>
         <div class="screen-header__icons">
             <span><i class="fas fa-search fa-lg"></i></span>
+            <span><i class="fas fa-music fa-lg"></i></span>
             <span><i class="fas fa-cog fa-lg"></i></span>
         </div>
     </header>
 
 
-    <main class="main-screen">
+    <main class="main-screen more-screen">
+        <div class="user-component">
+            <div class="user-component__column">
+                <img src="screenshots/ryu.jpg" 
+                    class="user-component__avatar user-component__avatar--xl" />
+                <div class="user-component__text">
+                    <h4 class="user-component__title">유승훈</h4>
+                    <h6 class="user-component__subtitle">+082 010 7681 6969<i class="fas fa-exclamation-circle"></i></h6>
+                </div>
+            </div>
+            <div class="user-component__column">
+                <i class="far fa-comment-alt fa-2x"></i>
+            </div>
+        </div>
         <div class="icon-row">
             <div class="icon-row__icon">
-                <i class="fas fa-qrcode"></i>
-                <span>QR 스캔</span>
+                <i class="far fa-calendar"></i>
+                <span>달력</span>
             </div>
             <div class="icon-row__icon">
-                <i class="far fa-address-book"></i>
-                <span>연락처로 추가</span>
+                <i class="far fa-smile-beam"></i>
+                <span>이모티콘</span>
             </div>
             <div class="icon-row__icon">
-                <i class="fas fa-fingerprint"></i>
-                <span>지문으로 추가</span>
+                <i class="fas fa-paint-roller"></i>
+                <span>배경</span>
             </div>
             <div class="icon-row__icon">
-                <i class="far fa-envelope"></i>
-                <span>초대하기</span>
+                <i class="fas fa-file-invoice-dollar"></i>
+                <span>계정</span>
             </div>
         </div>
-        <div class="recommended-friends">
-            <h6 class="recommended-friends__title">추천된 친구들</h6>
-            <span>당신이 추천한 친구가 없습니다.</span>
-        </div>
-        <div class="open-chat">
-            <div class="open-chat__header">
-                <h4 class="open-chat__title">오픈 채팅</h4>
-                <span>오픈채팅으로 이동<i class="fas fa-chevron-right fa-xs"></i></span>
-            </div>
-        </div>
-        <div class="open-post">
-            <div class="open-post__column">
-                <h5 class="open-post__title">안고독한 승훈이방</h5>
-                <h6 class="open-post__hashtags">#찐따#오타쿠#애니메이션#비트코인</h6>
-                <div class="open-post__members">
-                    <img src="screenshots/karina.jpeg" />
-                    <span class="open-post__member-count">802 명</span>
-                    <div class="divider"></div>
-                    <span class="open-post__member-status">방금 대화</span>
-                </div>
-            </div>
-            <div class="open-post__column">
-                <div class="open-post__photo">
-                    <img src="screenshots/c3.jpg" />
-                <div class="open-post__heart-count">
-                    <i class="fas fa-heart fa-xs"></i><span>326</span>
-                </div>
+        <div class="more-suggestions">
+            <h4 class="more-suggestions__title">추천</h4>
+            <div>
+                <div class="more-suggestions__icons">
+                    <div class="more-suggestions__icon">
+                        <div class="more-suggestions__icon-image">
+                            <i class="fas fa-quote-right"></i>
+                        </div>
+                        <span class="more-suggestions__icon-text">카카오스토리</span>
+                    </div>
                 </div>
             </div>
         </div>
-        
     </main>
 
     
